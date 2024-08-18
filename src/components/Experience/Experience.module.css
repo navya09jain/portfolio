@@ -1,0 +1,144 @@
+@import "../../vars.css";
+
+/* Container styling */
+.container {
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  position: relative;
+  z-index: 0; 
+}
+
+/* Title styling */
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center; /* Center align title */
+}
+
+/* Skills styling */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 10px;
+  margin-bottom: 40px; /* Space between skills and history */
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.skillImageContainer img {
+  width: 80px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+/* History styling */
+.history {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: linear-gradient(360deg, #7BC9FF 25%, rgba(0, 10, 50, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.historyItem img {
+  width: 50px;
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+}
+
+.historyItemDetails h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.historyItemDetails p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 25px;
+  list-style-type: disc;
+  margin-left: 17px;
+}
+
+/* Blur Effects */
+.topBlur {
+  position: absolute;
+  width: 60vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -100px;
+  left: -10vw;
+  border-radius: 764px;
+  background: #C7EEFF;
+  filter: blur(100px);
+  z-index: -1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 830px) {
+  .skills {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+    gap: 10px;
+  }
+
+  .history {
+    gap: 20px;
+  }
+
+  .topBlur {
+    width: 80vw;
+    height: 300vw;
+    top: -600px;
+    left: 30vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .topBlur {
+    width: 80vw;
+    height: 500vw;
+    top: -1000px;
+    left: 30vw;
+  }
+}

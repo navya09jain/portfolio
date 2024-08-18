@@ -1,0 +1,28 @@
+[
+  {
+    "role": "Trainee",
+    "organisation": "PWC Launchpad Program (Remote)",
+    "startDate": "Jan 2024",
+    "endDate": "June 2024",
+    "experiences": ["Trained in Python, Java, RDBMS, DevOps, and Cybersecurity as part of the PwC Launchpad Program.", "Completed rigorous training sessions and individual exams to develop proficiency in each area.","• Gained practical experience and enhanced problem-solving skills through hands-on projects and assessments."]
+  },
+  {
+    "role": "Web Development Intern",
+    "organisation": "Healtether (Remote)",
+    "startDate": "Nov 2023",
+    "endDate": "Jan 2024",
+    "experiences": ["Worked on Healtether's website, contributing to both front-end and back-end development, including integrating the WhatsApp API for chat functionality using Node.js.", " Designed robust database schemas and implemented payment gateway features, including PhonePe integration to enhance payment capabilities.","Enhanced the user interface with React and Tailwind, and gained knowledge of Azure fundamentals with a focus on the healthcare domain."]
+  },
+  {
+    "role": "React.js Intern",
+    "organisation": "Plural Technology Pvt Ltd (On-site)",
+    "startDate": "June 2023",
+    "endDate": "July 2023",
+    "experiences": [
+      "Integrated Microsoft Graph Client API into React applications and collaborated with SharePoint to improve functionality",
+      "Utilized Node.js with npm packages (Express, Natural, fs, Multer) to streamline file processing and enhance application performance.",
+      "Employed Material UI for designing compelling user interfaces",
+      "Managed data effectively using MongoDB and Mongoose for scalable storage and retrieval solutions, optimizing development and data processing."
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "University Feedback System",
+    "imageSrc": "projects/ufs.png",
+    "description": "This application centralizes student feedback on university aspects, offering anonymous or named contributions with authentication via college email. It ensures a secure environment, streamlines feedback collection, and enhances the university experience by eliminating multiple Google forms.",
+    "skills": ["Javascript", "CSS", "HTML", "Node.js", "Express.js", "Bootstrap"],
+    "demo": "https://www.linkedin.com/posts/navya-jain-94554a229_project-github-database-activity-7065747944091648001-njyd?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/navya09jain/universityFeedbackSystem"
+  },
+  {
+    "title": "Spoonacular",
+    "imageSrc": "projects/recipe.png",
+    "description": "This text-based recipe application focuses on Indian cuisine, offering a rich database of diverse recipes. Users can effortlessly browse and access a variety of recipes, each detailed with ingredients and instructions. The app features a feedback system, allowing users to provide input without mandatory sign-ups.",
+    "skills": ["React.js", "Supabase", "TailwindCSS", "Edamam API"],
+    "demo": "https://www.linkedin.com/posts/navya-jain-94554a229_the-idea-of-making-this-application-has-been-activity-7103726573651984384-Step?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/navya09jain/spoonacular"
+  },
+  {
+    "title": "Forumify",
+    "imageSrc": "projects/forumify.png",
+    "description": "A coding discussion platform where users can start discussions, post replies, and comment across various programming topics, all while ensuring secure participation through user authentication and managing data with a PHPMyAdmin database. It also features robust search functionality for easy access to relevant information.",
+    "skills": [ "PHP", "PHP MyAdmin Database" , "MYSQL", "Bootstrap"],
+    "demo": "https://www.linkedin.com/posts/navya-jain-94554a229_i-was-keen-to-learn-a-server-side-programming-activity-7146400722664701952-t9jc?utm_source=share&utm_medium=member_desktop",
+    "source": "https://github.com/navya09jain/forumify"
+  }
+]

@@ -1,0 +1,65 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative; /* Ensures the container is positioned correctly relative to the blur elements */
+  z-index: 0; /* Ensure content stays above the blur */
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  position: relative; /* Ensures the projects content is above the blur */
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 110vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -25px;
+  right: -25vw;
+  border-radius: 764px;
+  background: #C7EEFF;
+  filter: blur(100px);
+  z-index: -1; /* Adjusted for visibility */
+}
+
+
+
+@media screen and (max-width: 830px) {
+  .bottomBlur {
+    width: 130vw;
+    height: 70vw;
+    top: 100px;
+    right: -15vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bottomBlur {
+    width: 140vw;
+    height: 500vw;
+    top: -20px;
+    right: -30vw;
+  }
+}
